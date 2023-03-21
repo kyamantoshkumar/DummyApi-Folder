@@ -22,7 +22,6 @@ const Posts = () => {
         flexDirection: "column",
         alignItems: "center",
         marginTop: "4",
-        // boxShadow: "black"
       }}
     >
       <div style={{ fontSize:'30px', position:'' }}> Available Posts Here</div>
