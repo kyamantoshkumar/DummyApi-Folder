@@ -1,8 +1,23 @@
 
 body{
- background-color: rgb(194, 238, 223);
+ background-color:#eae1e763;
 }
 
 .background{
     background-color:  rgb(192, 118, 192);
+}
+
+.search-tab{
+    background-color: #d9badde8;
+    color: #aa84afe8;
+    border: none;
+}
+
+.search-tab:hover{
+    width: 35% ;
+    cursor: pointer;
+}
+
+input:hover{
+    width: 100% left;
 }

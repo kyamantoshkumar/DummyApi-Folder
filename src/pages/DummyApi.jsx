@@ -6,7 +6,7 @@ const Posts = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    axios.get("http://dummyjson.com/posts")
+    axios.get("https://dog.ceo/api/breed/hound/images ")  //https://pokeapi.co/api/v2/pokemon/ditto http://dummyjson.com/posts https://dog.ceo/api/breed/hound/images
       .then((res) => {
         console.log(res.data.posts);
         setPosts(res.data.posts);
