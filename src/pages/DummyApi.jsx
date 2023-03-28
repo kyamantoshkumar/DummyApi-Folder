@@ -3,10 +3,10 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "../assets/css/style.css"
 const Posts = () => {
-  const [posts, setPosts] = useState([]);
+const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    axios.get("https://dog.ceo/api/breed/hound/images ")  //https://pokeapi.co/api/v2/pokemon/ditto http://dummyjson.com/posts https://dog.ceo/api/breed/hound/images
+    axios.get("http://dummyjson.com/posts ")  //https://pokeapi.co/api/v2/pokemon/ditto http://dummyjson.com/posts https://dog.ceo/api/breed/hound/images
       .then((res) => {
         console.log(res.data.posts);
         setPosts(res.data.posts);
