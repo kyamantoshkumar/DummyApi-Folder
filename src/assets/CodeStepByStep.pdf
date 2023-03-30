@@ -1,0 +1,60 @@
+
+0.    (00:00​) React js and course Introduction
+1.    (00:08:36​) React js with cdn and without any installation
+2.    18:22​ Installation for react js(node,npm,create create app) on windows os
+3.    (27:50​) Write First Code with ReactJs
+4.    (34:00​) React js project File and Folder Structure 
+5.    (43:43​) what is package.json in react js 
+6.    (50:40​) component in react
+7.    (1:01:38​) class component in react js
+8.    (1:09:24​) what is jsx in react
+9.    (1:17:44​) Click event in react js 
+10.  (1:27:19​) State in react functional  component
+11.   (1:38:28​) state in class component in react
+12.   (1:46:14​) props in the functional component in react
+13.   (1:59:50​) props in class component
+14.   (2:12:50​) get input box value 
+15.   (2:21:00​) show and hide element (toggle)
+16.   (2:26:53​) basic form tutorial 
+17.   (2:38:16​) if-else conditions
+18.   (2:46:18​) pass function as props 
+19.   (2:54:18​) introduction to react js life cycle
+20.   (3:00:11​) constructor life cycle method
+21.   (3:07:27​) render life cycle in React js
+22.   (3:18:50​) component did mount react js life cycle
+23.   (3:28:19​) component did update react js life cycle
+24.   (3:40:57​) Should Component update in react js life cycle
+25.   (3:49:33​) componentWillUnmount in react js
+26.   (3:58:22​) Hooks in react js
+27.   (4:4:51​) useEffect hook in react js
+28.   (4:13:52​) useEffect  with state and props in react js
+29.   (4:26:46​) Style type in react js
+30.   (4:32:49​) install bootstrap in  react js
+31.   (4:40:17​) Handle array with list in react js
+32.   (4:54:47​) List with bootstrap in react js
+33.   (5:5:53​) Nested list with a nested array in react tutorial
+34.   (5:18:00​) How to resue component in reactJs
+35.   (5:27:26​) Nested list with a nested array in react tutorial
+36.   (5:36:57​) React js send data child to parent
+37.   (5:46:20​) Pure Component in React js
+38.   (5:58:11​) Use memo in react functional component
+39.   (6:07:01​) Ref in React js
+40.   (6:16:40​) useRef in react functional component
+41.   (6:24:02​) React js forward ref
+42.   (6:32:12​) React js Controlled Component
+43.   (6:40:00​) React js Uncontrolled Component
+44.   (6:48:40​) React js High order component
+45.   (6:59:11​) React js Routing basic
+46.   (7:08:04​) React js Routing example
+47.   (7:18:46​) 404 page in react routing
+48.   (7:27:48​) React js Dynamic routing 
+49.   (7:40:50​) React js Call Get Method API- HTTP call
+50.   (7:50:82​) What is postman
+51.   (8:00:14​) How to call post method API in react js 
+52.   (8:18:34​) React js delete method API 
+53.   (8:28:22​) React js pre-filled form
+54.   (8:36:35​) React js update API method
+55.   (8:47:17​) React js get the previous state in the functional component 
+56.   (8:59:46​) get previous props in react js with hooks
+57.   (9:09:54​) Context API in react js
+58.   (9:30:17​) React js interview Questions

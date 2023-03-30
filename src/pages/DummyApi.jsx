@@ -6,12 +6,14 @@ const Posts = () => {
 const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    axios.get("http://dummyjson.com/posts ")  //https://pokeapi.co/api/v2/pokemon/ditto http://dummyjson.com/posts https://dog.ceo/api/breed/hound/images
+    
+    axios.get("https://pokeapi.co/api/v2/pokemon/ditto")  //https://pokeapi.co/api/v2/pokemon/ditto http://dummyjson.com/posts https://dog.ceo/api/breed/hound/images
       .then((res) => {
-        console.log(res.data.posts);
-        setPosts(res.data.posts);
+        console.log(res.data);
+        setPosts(res.data.form);
       })
       .catch((err) => console.log(err));
+
   }, []);
 
   return (
@@ -25,6 +27,7 @@ const [posts, setPosts] = useState([]);
       }}
     >
       <div style={{ fontSize:'30px', position:'' }}> Available Posts Here</div>
+
       {posts.map((post) => (
         <div className="card w-50 mt-2">
           <div className="card-body">
@@ -33,8 +36,38 @@ const [posts, setPosts] = useState([]);
           </div>
         </div>
       ))}
+
     </div>
   );
 };
 
 export default Posts;
+
+
+/*
+import {useEffect} from "react";
+import axios from "axios"
+
+function Posts() {
+
+useEffect(() => {
+	(async () => {
+	try {
+		const result = await axios.get(
+"https://jsonplaceholder.typicode.com/todos")
+		console.log(result.data);
+	} catch (error) {
+		console.error(error);
+	}
+	})()
+})
+
+return (
+	<div >
+		Different ways to fetch Data
+	</div>
+);
+}
+
+export default Posts;
+*/
