@@ -4,6 +4,7 @@ import './App.css';
 import Posts from './pages/DummyApi.jsx';
 import Navbar from './components/Navbar.jsx';
 import PokeMonApi from './components/PokeMonApi';
+import Login from './pages/Login';
 
 const App = () => {
    return (
@@ -13,6 +14,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Posts/>} />
         <Route path="/pokemon" element={<PokeMonApi/>} />
+        <Route path='/login' element={<Login/>}/>
       </Routes>
      </BrowserRouter>
     </>

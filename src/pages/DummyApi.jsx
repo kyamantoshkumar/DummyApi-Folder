@@ -7,10 +7,10 @@ const [posts, setPosts] = useState([]);
 
   useEffect(() => {
     
-    axios.get("https://pokeapi.co/api/v2/pokemon/ditto")  //https://pokeapi.co/api/v2/pokemon/ditto http://dummyjson.com/posts https://dog.ceo/api/breed/hound/images
+    axios.get("http://dummyjson.com/posts")  //https://pokeapi.co/api/v2/pokemon/ditto http://dummyjson.com/posts https://dog.ceo/api/breed/hound/images
       .then((res) => {
-        console.log(res.data);
-        setPosts(res.data.form);
+        console.log(res.data.posts);
+        setPosts(res.data.posts);
       })
       .catch((err) => console.log(err));
 
