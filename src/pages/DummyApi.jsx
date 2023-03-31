@@ -13,7 +13,7 @@ const [posts, setPosts] = useState([]);
         setPosts(res.data.posts);
       })
       .catch((err) => console.log(err));
-
+     
   }, []);
 
   return (
