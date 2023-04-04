@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-
+import "../assets/css/Login.css"
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   function handleSubmit(e) {
+    alert('Email :'+ email + '  Password: '+ password)
+     console.log('Email :'+ email + '  Password: '+ password);
     e.preventDefault();
     axios.post('/api/login', { email, password })
       .then(response => {
@@ -19,21 +21,26 @@ function Login() {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+  <div className='container'> 
+    <div className='col-lg-12 col-md-6 col-sm-12 '> 
+    <div className='row formD center'>
+      <form className="form1" onSubmit={handleSubmit}>
       <div>
-        <label htmlFor="email">Email:</label>
+        <label className='label1' htmlFor="email">Email:</label>
         <input
+           className="shadow"
           type="email"
           id="email"
           name="email"
           value={email}
           onChange={e => setEmail(e.target.value)}
           required
-        />
+        /> 
       </div>
       <div>
         <label htmlFor="password">Password:</label>
         <input
+          className= "shadow"
           type="password"
           id="password"
           name="password"
@@ -42,8 +49,11 @@ function Login() {
           required
         />
       </div>
-      <button type="submit">Login</button>
+      <button className="btn1" type="submit">Login</button>
     </form>
+  </div>
+    </div>
+    </div>
   );
 }
 

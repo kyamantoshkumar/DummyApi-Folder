@@ -5,14 +5,14 @@ import "../assets/css/style.css";
 const Navbar = () => {
   return (
     <>
-      <main>
+      <div className=""> 
+      <main >    
         <nav className="navbar navbar-expand-lg background px-5 py-3">
           <div className="container-fluid">
           {/* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation"> */}
             <a className="navbar-brand text-light fw-bold" href="/">
               Navbar
             </a>   
-
             <button
               className="navbar-toggler"
               type="button"
@@ -30,7 +30,7 @@ const Navbar = () => {
                   <a
                     className="nav-link active text-light"
                     aria-current="page"
-                    href="/"
+                    href="/login"
                     >
                     Home
                   </a>
@@ -47,9 +47,9 @@ const Navbar = () => {
                   type="search"
                   placeholder="Search"
                   aria-label="Search"
-                />
+                 />
                   <button
-                  className="btn btn-outline-success search-tab"
+                  className="btn  btn-outline-success search-tab"
                   type="submit"
                   >  
                   Search
@@ -60,6 +60,7 @@ const Navbar = () => {
         </nav>
       </main>
       <section className="bg-primary"> </section>
+      </div>
     </>
   );
 };

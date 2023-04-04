@@ -8,6 +8,7 @@ body{
 }
 
 .search-tab{
+    padding : 5px 15px 5px 15px;
     background-color: #d9badde8;
     color: #aa84afe8;
     border: none;
